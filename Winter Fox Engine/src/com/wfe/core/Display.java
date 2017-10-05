@@ -9,10 +9,10 @@ import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.glfw.GLFWWindowSizeCallback;
 import org.lwjgl.opengl.GL;
 
-import com.wfe.core.input.Cursor;
-import com.wfe.core.input.Keyboard;
-import com.wfe.core.input.Mouse;
-import com.wfe.core.input.Scroll;
+import com.wfe.input.Cursor;
+import com.wfe.input.Keyboard;
+import com.wfe.input.Mouse;
+import com.wfe.input.Scroll;
 
 
 public class Display {
@@ -21,9 +21,9 @@ public class Display {
 	
 	private long window;
 	
-	private int width, height;
+	private static int width, height;
 	private String title;
-	private boolean resized;
+	private static boolean resized;
 	
 	private boolean grabbed;
 	
@@ -41,8 +41,8 @@ public class Display {
 	
 	public void initialize(int width, int height, String title)
 	{
-		this.width = width;
-		this.height = height;
+		Display.width = width;
+		Display.height = height;
 		this.title = title;
 		
 		// Setup an error callback. The default implementation
@@ -135,12 +135,12 @@ public class Display {
 		glfwSwapBuffers(window);
 	}
 	
-	public int getWidth()
+	public static int getWidth()
 	{
 		return width;
 	}
 	
-	public int getHeight()
+	public static int getHeight()
 	{
 		return height;
 	}
@@ -150,14 +150,14 @@ public class Display {
 		return title;
 	}
 	
-	public boolean isResized()
+	public static boolean isResized()
 	{
 		return resized;
 	}
 	
 	public void setResized(boolean resized)
 	{
-		this.resized = resized;
+		Display.resized = resized;
 	}
 	
 	public void cleanUp()
@@ -173,8 +173,8 @@ public class Display {
 	
 	private void resize(int width, int height)
 	{
-		this.width = width;
-		this.height = height;
+		Display.width = width;
+		Display.height = height;
 		resized = true;
 	}
 	

@@ -1,4 +1,4 @@
-package com.wfe.core.input;
+package com.wfe.input;
 
 import org.lwjgl.glfw.GLFWScrollCallback;
 

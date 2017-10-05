@@ -1,4 +1,4 @@
-package com.wfe.core.input;
+package com.wfe.input;
 
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_1;
 import static org.lwjgl.glfw.GLFW.GLFW_MOUSE_BUTTON_2;
