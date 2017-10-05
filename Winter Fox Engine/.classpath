@@ -2,5 +2,26 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-glfw.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-glfw-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-glfw-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-glfw-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-jemalloc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-jemalloc-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-jemalloc-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-jemalloc-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-openal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-openal-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-openal-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-openal-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-opengl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-opengl-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-opengl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-opengl-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/lwjgl-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/theri/git/Winter-Fox/Winter Fox Engine/libs/PNGDecoder.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
